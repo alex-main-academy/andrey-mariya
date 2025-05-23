@@ -62,3 +62,10 @@ form.addEventListener('submit', (event) => {
       console.error('Error!', error.message);
     });
 });
+
+const cover = document.querySelector('.js-cover');
+const card = document.querySelector('.details-card');
+
+cover.addEventListener('click', () => {
+  card.classList.toggle('active');
+});
