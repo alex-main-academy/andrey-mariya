@@ -64,8 +64,10 @@ form.addEventListener('submit', (event) => {
 });
 
 const cover = document.querySelector('.js-cover');
-const card = document.querySelector('.details-card');
+const card = document.querySelectorAll('.details-card');
 
 cover.addEventListener('click', () => {
-  card.classList.toggle('active');
+  card.forEach((elem) => {
+    elem.classList.toggle('active');
+  });
 });
