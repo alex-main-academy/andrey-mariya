@@ -170,11 +170,12 @@ canvas {
 }
 
 .invitation-date {
-  font-family: 'MonsieurLaDoulaise';
+  font-family: 'Arno';
   font-size: 70px;
   text-align: center;
   letter-spacing: 3px;
   margin-bottom: 50px;
+  color: #453020;
 }
 
 .invitation-text-title {
@@ -268,6 +269,28 @@ canvas {
 .location-foto-thumb {
   margin-top: 60px;
   width: 480px;
+}
+
+.location-info {
+  font-size: 18px;
+  text-align: center;
+  color: #453020;
+  line-height: 1.4;
+  padding: 50px 20px 0;
+  font-family: 'Montserrat';
+}
+
+.location-info b {
+  font-weight: 600;
+}
+
+.location-info a {
+  color: #453020;
+  display: block;
+  text-align: center;
+  line-height: 1;
+  margin-top: 10px;
+  font-size: 22px;
 }
 
 .taming {
@@ -399,7 +422,7 @@ canvas {
   background-color: #f4ece1;
 }
 .dresscode-item:nth-child(5) {
-  background-color: #ededed;
+  background-color: #fdf8f3;
 }
 .dresscode-item:nth-child(6) {
   background-color: #869487;
