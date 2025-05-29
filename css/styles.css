@@ -153,6 +153,39 @@ canvas {
   color: white;
 }
 
+.hero__arrow {
+  position: absolute;
+  inset-inline-start: 50%;
+  inset-block-end: 30px;
+  transform: translateX(-50%);
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid #fff;
+  background-color: #ffffffb2;
+}
+
+.hero__arrow img {
+  animation-name: arrow;
+  animation-duration: 1.7s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes arrow {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(4px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 .invitation {
   width: 480px;
   margin: 0 auto;
@@ -774,6 +807,7 @@ canvas {
   margin: 0 auto;
   background-color: #f5faf388;
   padding-top: 70px;
+  padding-bottom: 1px;
 }
 
 .music-date {
